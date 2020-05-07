@@ -7,7 +7,7 @@ sudo apt update #更新套件庫清單
 echo "#################### Finish apt update !!! ####################"
 
 #apt
-for apt_list in python3 python python-pip pyhon3-pip git tmux nasm vim gdb figlet toilet
+for apt_list in python3 python python-pip python3-pip git tmux nasm vim gdb figlet toilet
 do
 	sudo apt install ${apt_list} -y
 
