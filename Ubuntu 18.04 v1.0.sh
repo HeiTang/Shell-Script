@@ -15,12 +15,12 @@ do
 done
 
 #brew
-for brew_list in zsh
-do 
-    brew install ${brew_list}
+# for brew_list in zsh
+# do 
+#     brew install ${brew_list}
 
-    echo "#################### Finish ${brew_list} !!! ####################"
-done
+#     echo "#################### Finish ${brew_list} !!! ####################"
+# done
 
 #pip
 for pip_list in pwntools
